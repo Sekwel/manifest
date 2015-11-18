@@ -11,9 +11,9 @@
            remote="aosp"
            sync-j="4" />
 
-  <!--project path="android_manifest" name="sekwel_manifest" remote="sekwel" revision="sekwel-5.1.1_r2" /-->
+  <project path="android_manifest" name="manifest" remote="sekwel" revision="sekwel-5.1.1_r2" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="build" remote="sekwel" revision="sekwel-5.1.1_r2" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
  
@@ -53,7 +53,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <!--project path="device/htc/flounder" name="sekwel_device_htc_flounder" remote="sekwel" revision="sekwel-5.1.1_r2" /-->
+  <project path="device/htc/flounder" name="device_htc_flounder" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
   <!--project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" /-->
   <!--project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" /-->
@@ -78,6 +78,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/busybox" name="external_busybox" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -239,7 +240,7 @@
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
-  <!--project path="external/openssh" name="sekwel_external_openssh" remote="sekwel" revision="sekwel-5.1.1_r2" /-->
+  <project path="external/openssh" name="external_openssh" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
@@ -382,7 +383,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <!--project path="packages/apps/Email" name="sekwel_packages_apps_Email"  remote="sekwel" revision="sekwel-5.1.1_r2" /-->
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -405,7 +406,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -414,7 +415,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
