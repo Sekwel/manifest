@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="sekwel"
-           fetch="git://bitbucket.com/Sekwel/" />
+           fetch="git://bitbucket.com/sekwel/" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
