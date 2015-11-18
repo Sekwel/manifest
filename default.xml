@@ -13,7 +13,7 @@
 
   <project path="android_manifest" name="manifest" remote="sekwel" revision="sekwel-5.1.1_r2" />
 
-  <project path="build" name="build" remote="sekwel" revision="sekwel-5.1.1_r2" />
+  <project path="build" name="build" remote="sekwel" revision="sekwel-5.1.1_r2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
  
