@@ -39,7 +39,7 @@ Now enter the following to initialize the repository:
 
 -----cd ~/Sekwel
 
------repo init -u git@192.168.10.155:/home/git/AOSP-Sekwel/sekwel_manifest.git -b sekwel-5.1.1_r2
+-----repo init -u git://github.com/Sekwel/manifest.git -b sekwel-5.1.1_r2
 
 Then to start the Sync.
 
