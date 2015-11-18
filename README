@@ -1,0 +1,87 @@
+Sekwel
+Android ROM
+
+Available for:
+HTC Nexus 9
+
+==================================================
+
+
+Create the Directories
+
+-----You will need to set up some directories in your build environment.
+
+----------To create them:
+
+---------------mkdir -p ~/bin 
+
+---------------mkdir -p ~/Sekwel
+
+
+==================================================
+
+
+Install the Repository
+
+-----Enter the following to download make executable the "repo" binary:
+
+----------curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+
+----------chmod a+x ~/bin/repo
+
+-----You may need to reboot for these changes to take effect. 
+
+
+==================================================
+
+
+Now enter the following to initialize the repository:
+
+-----cd ~/Sekwel
+
+-----repo init -u git@192.168.10.155:/home/git/AOSP-Sekwel/sekwel_manifest.git -b sekwel-5.1.1_r2
+
+Then to start the Sync.
+
+-----repo sync -j<number of CPU cores plus one>
+       example for 2 CPU cores: 'repo sync -j3'
+
+
+==================================================
+
+
+Configure Build 
+
+-----Now, your environment must be configured to build specifically for your device. To set up your build environment:
+
+---------- . build/envsetup.sh
+
+---------- lunch
+
+---------- Now choose the device to build
+
+
+==================================================
+
+
+Compile!
+
+-----Next, we will build the actual ROM. You have a few build choices, described below. 
+
+---------- First option will do a straight build. Do this if building on a single core machine.
+
+--------------- make 
+
+---------- Second option will specify the amount of jobs you want to run (replace # with number of cpu cores).
+
+--------------- make -j<number of CPU cores plus one>
+                  example for 2 CPU cores: 'make -j3'
+
+----------- Third option will create an OTA zip file that can be flashed through recovery This can be used with '-j<number of CPU cores plus one>'
+
+--------------- make otapackage (not currently implemeted)
+
+
+==================================================
+
+
