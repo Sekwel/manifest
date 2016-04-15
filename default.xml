@@ -370,8 +370,8 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project name="Superuser" path="external/koush/Superuser" remote="koush" revision="master" />
-  <project name="Widgets" path="external/koush/Widgets" remote="koush" revision="master" />
+  <project name="external/koush/Superuser" path="Superuser" remote="koush" revision="master" />
+  <project name="external/koush/Widgets" path="Widgets" remote="koush" revision="master" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
