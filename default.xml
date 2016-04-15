@@ -4,9 +4,6 @@
   <remote  name="sekwel"
            fetch="git://github.com/Sekwel/" />
 
-  <remote  name="koush"
-           fetch="git://github.com/koush/" />
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -180,6 +177,8 @@
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" />
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" />
+  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="sekwel" revision="sekwel-5.1.1_r2" />
+  <project path="external/koush/Widgets" name="external_koush_Widgets" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
@@ -370,8 +369,6 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="master" />
-  <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="master" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
