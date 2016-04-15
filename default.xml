@@ -388,7 +388,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/Email" name="packages_apps_Email" remote="sekwel" revision="sekwel-5.1.1_r2" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="sekwel" revision="sekwel-5.1.1_r2-PROD" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange"  remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
