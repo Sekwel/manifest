@@ -418,6 +418,7 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/Xabber" name="packages_apps_Xabber" remote="sekwel" revision="sekwel-5.1.1_r2" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
